@@ -214,8 +214,7 @@ export const umkmList: Umkm[] = [
     pembayaran: {
       pembayaran: ["Tunai"],
       pemesanan: ["Melalui WhatsApp", "Datang langsung ke lokasi (on the spot)"],
-    },
-    mapsUrl: "https://maps.app.goo.gl/ZAhJ8mgezxDoEorb7?g_st=ic",
+      mapsUrl: "https://maps.app.goo.gl/ZAhJ8mgezxDoEorb7?g_st=ic",
   },
   {
     slug: "laundry-bu-ida",
