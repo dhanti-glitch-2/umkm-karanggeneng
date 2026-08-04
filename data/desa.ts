@@ -31,19 +31,19 @@ export const desa = {
       judul: "Kayu Jati",
       deskripsi:
         "Hutan jati yang membentang di sepanjang jalan desa menjadi komoditas berharga sekaligus penanda khas lanskap Karanggeneng.",
-      gambar: "/images/kayu-jati.jpg",
+      gambar: "/images/kayu-jati.jpeg",
     },
     {
       judul: "Sawah & Pertanian",
       deskripsi:
         "Hamparan sawah hijau menjadi penopang utama sektor pertanian dan sumber penghidupan sebagian besar warga.",
-      gambar: "/images/sawah.jpg",
+      gambar: "/images/sawah.jpeg",
     },
     {
       judul: "Hutan & Lingkungan",
       deskripsi:
         "Kawasan hutan di sekeliling desa turut menjaga kelestarian lingkungan sekaligus menopang penghidupan warga sekitar.",
-      gambar: "/images/gapura.jpg",
+      gambar: "/images/gapura.jpeg",
     },
   ],
 };
