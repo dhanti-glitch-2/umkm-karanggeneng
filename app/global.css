@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink font-body;
+    font-feature-settings: "ss01";
+  }
+
+  ::selection {
+    @apply bg-gold/40 text-ink;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme("colors.gold.DEFAULT");
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.2em] text-sawah-dark/80;
+  }
+
+  .section-pad {
+    @apply px-6 md:px-10 lg:px-16;
+  }
+
+  /* Motif garis ukiran sederhana — dipakai sebagai pemisah antar seksi */
+  .leaf-divider {
+    position: relative;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      theme("colors.teak.DEFAULT" / 40%) 15%,
+      theme("colors.teak.DEFAULT" / 40%) 85%,
+      transparent
+    );
+  }
+
+  .leaf-divider::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background: theme("colors.gold.DEFAULT");
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .card-wood {
+    @apply relative rounded-sm border border-teak/15 bg-cream shadow-[0_1px_0_0_rgba(43,33,24,0.05)];
+  }
+}
+
+@layer utilities {
+  .bg-noise {
+    background-image: url("/images/texture-grain.svg");
+    background-size: 200px 200px;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
