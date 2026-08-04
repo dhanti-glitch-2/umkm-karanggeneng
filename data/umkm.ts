@@ -160,14 +160,15 @@ export const umkmList: Umkm[] = [
     jenisUsaha: "Kuliner (Kue)",
     logo: "/images/umkm/logo-pawon-bunda-anwil.png",
     fotoSampul: "/images/umkm/tim-pawon-bunda-anwil.png",
-    galeri: ["/images/umkm/pawon-bunda-anwil-1.png"
-     "/images/umkm/pawon-bunda-anwil-2.png",
-      "/images/umkm/pawon-bunda-anwil-3.png",
-      "/images/umkm/pawon-bunda-anwil-4.png",
-      "/images/umkm/pawon-bunda-anwil-5.png", 
-      "/images/umkm/pawon-bunda-anwil-6.png",
-      "/images/umkm/pawon-bunda-anwil-7.png", 
-    ],
+    galeri: [
+    "/images/umkm/pawon-bunda-anwil-1.png",
+    "/images/umkm/pawon-bunda-anwil-2.png",
+    "/images/umkm/pawon-bunda-anwil-3.png",
+     "/images/umkm/pawon-bunda-anwil-4.png",
+    "/images/umkm/pawon-bunda-anwil-5.png",
+    "/images/umkm/pawon-bunda-anwil-6.png",
+    "/images/umkm/pawon-bunda-anwil-7.png",
+  ],
     sejarah: [
       "Pawon Bunda Anwil berawal dari tahun 2020, ketika Ibu Carik mengikuti sebuah pelatihan pembuatan kue yang diselenggarakan di kantor desa. Dari pelatihan tersebut, produk pertama yang dihasilkan adalah onde-onde, yang kemudian menjadi cikal bakal berdirinya usaha ini.",
       "Tidak berhenti pada satu produk, usaha ini terus dikembangkan secara mandiri dengan belajar berbagai resep dan teknik baru melalui platform YouTube. Melalui proses belajar yang konsisten, Pawon Bunda Anwil mampu memperluas variasi produknya dan terus bertahan hingga kini telah berjalan selama 5-6 tahun.",
